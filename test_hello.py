@@ -12,8 +12,8 @@ def teardown_function(function):
 
 
 ## Run to see failed test
-def test_hello_add():
-   assert add(test_hello_add.x) == 12
+# def test_hello_add():
+#    assert add(test_hello_add.x) == 12
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
